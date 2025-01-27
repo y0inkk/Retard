@@ -5,7 +5,6 @@ body{
     color: white;
     width: 90vw;
     margin: auto;
-    margin-top: 100px;
 }
 
 button{
@@ -22,7 +21,7 @@ button{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width:50vw;
+    width: 25vw;
     margin: auto;
     font-family: "Open Sans", serif;
     font-size: larger;
@@ -38,15 +37,22 @@ button:active{
 #noVdo{
     margin-top: 30px;
     height: 200px;
-    width: 80vw;
+    width: 90vw;
 }
 
 #yesVdo{
     margin-top: 30px;
     height: 200px;
-    width: 80vw;
+    width: 90vw;
 }
 
 .hidden {
     display: none;
+}
+
+
+@media (max-width: 768px) {
+    .btn{
+        width: 60vw;
+    }
 }
